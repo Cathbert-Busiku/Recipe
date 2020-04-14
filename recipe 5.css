@@ -1,0 +1,102 @@
+
+body{
+	background-color:lightblue;
+	background-image: 
+	url("https://www.rd.com/wp-content/uploads/sites/2/2016/06/06-make-pancakes-delicious-chocolate.jpg");
+	background-size: contain;
+
+}
+
+#intro{
+	background-color: gray;
+	color: white;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	clor:red;
+}
+
+#contact{
+	background-color: darkgray;
+	color: white;
+}
+h1{
+	text-align: center;
+	background-color:lightSkyblue;
+	color:green;
+	font-family: arial;
+	font-weight: 500;
+	padding: 20px;
+	text-decoration: underline;		
+
+}
+h2{
+	padding: 20px;
+}
+h3{
+	padding: 20px;
+}
+
+p>span{
+	text-emphasis:none;
+	font-style: italic;
+}
+p>span>span{
+
+    font-style:italic; 
+}
+p.content>span{
+	text-decoration: underline;
+}
+
+span.remove{
+	font-style: normal;
+	color: red;
+}
+
+
+
+p{ 
+    font-weight:500;
+    font-family: Arial,san-serif;
+    font-size: 17px;
+    
+}
+
+#intro>img{
+    
+    float: right;
+}
+
+p.content{
+     color: black;
+     font-weight: 500;
+     font-size: 17px;
+	 float:left;
+
+}
+
+
+
+ul li{
+    margin: 10px;
+	font-weight: 500px;
+	font-size: 20px;
+    list-style-image: url("https://image.flaticon.com/icons/svg/1046/1046784.svg ");
+    list-style-position: inside;
+
+
+	
+}   
+
+ol{
+	margin: 10px;
+	font-size:20px;
+	font-weight:500px;
+	list-style-type: lower-roman;
+	
+}
